@@ -2,8 +2,9 @@ function sumRange(start, end) {
     let total = 0;
     for (let i = start; i <= end;) {
         total += i;
+        console.log(total);
     }
-    return total;
+
 }
 
 console.log(sumRange(1, 5));   // 15

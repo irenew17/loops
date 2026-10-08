@@ -11,10 +11,12 @@
 // console.log(sumRange(4, 4));   // 4
 
 function countdown(n) {
-    let counter = 0
-    while (n > 0) {
-        counter -= 1;
+    const counter = [];
+    let i = n;
+    while (counter.length < n) {
+        counter.push(i--);
     }
+    console.log(counter);
 }
 
 console.log(countdown(5)); // [5, 4, 3, 2, 1]

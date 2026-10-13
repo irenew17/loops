@@ -23,9 +23,12 @@
 // console.log(countdown(1)); // [1]
 // console.log(countdown(8)); // [8, 7, 6, 5, 4, 3, 2, 1]
 
-function hey(name) {
-    const name = no
-    console.log('Wassup ${hey}');
+function countVowels(str) {
+    const char = str.length;
+    for (str)
 }
 
-console.log(hey(yo));
+console.log(countVowels("hello"));      // 2
+console.log(countVowels("javascript")); // 3
+console.log(countVowels("xyz"));        // 0
+console.log(countVowels("aeiou"));      // 5

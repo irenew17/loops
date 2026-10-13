@@ -10,15 +10,15 @@
 // console.log(sumRange(1, 100)); // 5050
 // console.log(sumRange(4, 4));   // 4
 
-function countdown(n) {
-    const counter = [];
-    let i = n;
-    while (counter.length < n) {
-        counter.push(i--);
-    }
-    console.log(counter);
-}
+// function countdown(n) {
+//     const counter = [];
+//     let i = n;
+//     while (counter.length < n) {
+//         counter.push(i--);
+//     }
+//     console.log(counter);
+// }
 
-console.log(countdown(5)); // [5, 4, 3, 2, 1]
-console.log(countdown(1)); // [1]
-console.log(countdown(8)); // [8, 7, 6, 5, 4, 3, 2, 1]
+// console.log(countdown(5)); // [5, 4, 3, 2, 1]
+// console.log(countdown(1)); // [1]
+// console.log(countdown(8)); // [8, 7, 6, 5, 4, 3, 2, 1]
